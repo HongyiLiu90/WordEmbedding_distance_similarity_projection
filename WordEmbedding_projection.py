@@ -106,8 +106,6 @@ def export_results(outcome, path, Title):
         result.close()
 
 
-#finance_all = {'chi': '金融', 'eng':'finance', 'fre': 'finance', 'spa': 'financiar',
-#           'ger': 'finanzen', 'rus': 'финансы', 'ita': 'finanza', 'heb': 'מימון'}
 
 bank_all = {'chi': '银行', 'eng':'bank', 'fre': 'banque', 'spa': 'banco',
            'ger': 'bank', 'rus': 'банк', 'ita': 'banca', 'heb': 'בנק'}
