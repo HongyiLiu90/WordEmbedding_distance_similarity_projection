@@ -25,11 +25,6 @@ language, model = sys.argv[1:3]
 root = '/scratch/Users/GoogleBooks'   # given the root
 
 
-#models = ['Word2Vec', 'fastText', 'GloVe']  # given training methods
-#languages = ['chi-sim', 'eng-gb', 'eng-us', 'fre', 'ger', 'heb', 'ita', 'rus', 'spa']
-
-
-
 
 # computing the distance and similarity between two words
 
@@ -105,6 +100,8 @@ def export_results(outcome, path, Title):
             writer.writerow(outcome)
         result.close()
 
+        
+# build up the dictionary for different words in different languages.
 
 
 bank_all = {'chi': '银行', 'eng':'bank', 'fre': 'banque', 'spa': 'banco',
