@@ -1,6 +1,15 @@
+Please cite our paper as follows
+
+@article{jha2020does,
+  title={Does finance benefit society? A language embedding approach},
+  author={Jha, Manish and Liu, Hongyi and Manela, Asaf},
+  journal={A language embedding approach (July 18, 2020)},
+  year={2020}
+}
+
 # WordEmbedding_distance_similarity_projection
 
-This repository provides the Python code for calculating the distance, similarity, analogy, and projection between wordembeddings based on the three horses, Wor2Vec, fastText, and Glove.
+This repository provides the partial Python code for our paper "Does finance benefit society? A language embedding approach" for calculating the distance, similarity, analogy, and projection between wordembeddings based on the three horses, Wor2Vec, fastText, and Glove.
 
 
 # Training method: Word2Vec, fastText, and Glove
